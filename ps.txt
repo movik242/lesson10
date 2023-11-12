@@ -1,0 +1,99 @@
+ps ax
+PID 	 PPID 	 STATE 		 COMMAND
+-------- ------- ------- 	 -------
+1 	 0 	 S(sleeping) 	 /usr/lib/systemd/systemd--switched-root--system--deserialize22
+10 	 2 	 S(sleeping) 	 
+1083 	 573 	 S(sleeping) 	 -bash
+11 	 2 	 S(sleeping) 	 
+13 	 2 	 S(sleeping) 	 
+14 	 2 	 S(sleeping) 	 
+15 	 2 	 S(sleeping) 	 
+16 	 2 	 S(sleeping) 	 
+17 	 2 	 S(sleeping) 	 
+1700 	 540 	 S(sleeping) 	 /sbin/dhclient-d-q-sf/usr/libexec/nm-dhcp-helper-pf/var/run/dhclient-eth1.pid-lf/var/lib/NetworkManager/dhclient-d103161b-c86b-353a-8caf-ba33cb0e056a-eth1.lease-cf/var/lib/NetworkManager/dhclient-eth1.confeth1
+18 	 2 	 S(sleeping) 	 
+19 	 2 	 S(sleeping) 	 
+2 	 0 	 S(sleeping) 	 
+20 	 2 	 S(sleeping) 	 
+2047 	 540 	 S(sleeping) 	 /sbin/dhclient-d-q-sf/usr/libexec/nm-dhcp-helper-pf/var/run/dhclient-eth0.pid-lf/var/lib/NetworkManager/dhclient-5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03-eth0.lease-cf/var/lib/NetworkManager/dhclient-eth0.confeth0
+21 	 2 	 S(sleeping) 	 
+2105 	 833 	 S(sleeping) 	 sshd: root@pts/0
+2107 	 2105 	 S(sleeping) 	 -bash
+23 	 2 	 S(sleeping) 	 
+2340 	 833 	 S(sleeping) 	 sshd: root@pts/1
+2342 	 2340 	 S(sleeping) 	 -bash
+239 	 2 	 S(sleeping) 	 
+240 	 2 	 S(sleeping) 	 
+241 	 2 	 S(sleeping) 	 
+242 	 2 	 S(sleeping) 	 
+243 	 2 	 S(sleeping) 	 
+24609 	 2 	 S(sleeping) 	 
+28496 	 990 	 S(sleeping) 	 pickup-l-tunix-u
+28504 	 2342 	 S(sleeping) 	 shparse.sh
+28505 	 28504 	 S(sleeping) 	 sh/root/Bash/ps.sh
+2974 	 990 	 S(sleeping) 	 tlsmgr-l-tunix-u
+3 	 2 	 S(sleeping) 	 
+30 	 2 	 S(sleeping) 	 
+31 	 2 	 S(sleeping) 	 
+310 	 2 	 S(sleeping) 	 
+311 	 2 	 S(sleeping) 	 
+3174 	 2107 	 S(sleeping) 	 tail-f/var/log/cron
+32 	 2 	 S(sleeping) 	 
+320 	 2 	 S(sleeping) 	 
+321 	 2 	 S(sleeping) 	 
+334 	 2 	 S(sleeping) 	 
+335 	 2 	 S(sleeping) 	 
+336 	 2 	 S(sleeping) 	 
+337 	 2 	 S(sleeping) 	 
+338 	 2 	 S(sleeping) 	 
+339 	 2 	 S(sleeping) 	 
+340 	 2 	 S(sleeping) 	 
+341 	 2 	 S(sleeping) 	 
+342 	 2 	 S(sleeping) 	 
+343 	 2 	 S(sleeping) 	 
+344 	 2 	 S(sleeping) 	 
+345 	 2 	 S(sleeping) 	 
+398 	 1 	 S(sleeping) 	 /usr/lib/systemd/systemd-journald
+40 	 2 	 S(sleeping) 	 
+41 	 2 	 S(sleeping) 	 
+42 	 2 	 S(sleeping) 	 
+422 	 1 	 S(sleeping) 	 /usr/lib/systemd/systemd-udevd
+428 	 1 	 S(sleeping) 	 /usr/sbin/lvmetad-f
+43 	 2 	 S(sleeping) 	 
+44 	 2 	 S(sleeping) 	 
+494 	 2 	 S(sleeping) 	 
+495 	 2 	 S(sleeping) 	 
+496 	 2 	 S(sleeping) 	 
+497 	 2 	 S(sleeping) 	 
+498 	 2 	 S(sleeping) 	 
+499 	 2 	 S(sleeping) 	 
+5 	 2 	 S(sleeping) 	 
+500 	 2 	 S(sleeping) 	 
+501 	 2 	 S(sleeping) 	 
+512 	 1 	 S(sleeping) 	 /sbin/auditd
+516 	 2 	 S(sleeping) 	 
+517 	 2 	 S(sleeping) 	 
+5288 	 2 	 S(sleeping) 	 
+5339 	 833 	 S(sleeping) 	 sshd: root@notty
+5341 	 5339 	 S(sleeping) 	 /usr/libexec/openssh/sftp-server
+536 	 1 	 S(sleeping) 	 /usr/bin/dbus-daemon--system--address=systemd:--nofork--nopidfile--systemd-activation
+537 	 1 	 S(sleeping) 	 /sbin/rpcbind-w
+540 	 1 	 S(sleeping) 	 /usr/sbin/NetworkManager--no-daemon
+541 	 1 	 S(sleeping) 	 /usr/lib/polkit-1/polkitd--no-debug
+542 	 1 	 S(sleeping) 	 /usr/lib/systemd/systemd-logind
+547 	 1 	 S(sleeping) 	 /usr/sbin/chronyd
+559 	 1 	 S(sleeping) 	 /usr/sbin/gssproxy-D
+569 	 1 	 S(sleeping) 	 /usr/sbin/crond-n
+573 	 1 	 S(sleeping) 	 login -- root
+58 	 2 	 S(sleeping) 	 
+6 	 2 	 S(sleeping) 	 
+7 	 2 	 S(sleeping) 	 
+8 	 2 	 S(sleeping) 	 
+833 	 1 	 S(sleeping) 	 /usr/sbin/sshd-D-u0
+834 	 1 	 S(sleeping) 	 /usr/bin/python-Es/usr/sbin/tuned-l-P
+836 	 1 	 S(sleeping) 	 /usr/sbin/rsyslogd-n
+88 	 2 	 S(sleeping) 	 
+9 	 2 	 R(running) 	 
+9186 	 2 	 S(sleeping) 	 
+990 	 1 	 S(sleeping) 	 /usr/libexec/postfix/master-w
+997 	 990 	 S(sleeping) 	 qmgr-l-tunix-u
